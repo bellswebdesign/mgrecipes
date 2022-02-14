@@ -1,0 +1,62 @@
+.header {
+  width: 100%;
+  z-index: 99;
+  background-color: #f8f8f8;
+  .header-top-bar-wrap {
+    padding: 5px;
+    background: $charcoal;
+    text-align: right;
+    .social-icons-wrap {
+      a {
+        em {
+          color: $white;
+          font-size: 1.5em;
+          margin: 0 2px;
+          -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+          &:hover{
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+  .header-inner {
+    width: 100%;
+    z-index: 99;
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      h4 {
+        margin-bottom: 0;
+      }
+      .logo, .logo:hover {
+        color: var(--orange);
+        text-decoration: none;
+      }
+    }
+  }
+}
+.foodbanner {
+  background-repeat: no-repeat;
+  background-image: url("../img/edit_banner.png");
+  background-size: cover;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+  .transgray {
+    color: $white;
+    background-color: rgba(0, 0, 0, 0.43);
+    padding: 15px 0;
+    .underline-white {
+      border-bottom: 2px solid $white;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.navbar-nav {
+  flex-direction: row;
+  li {
+    justify-content: flex-start;
+    display: flex;
+    a {
+      display: flex !important;
+      align-items: center;
+      color: $charcoal;
+      padding: 10px 20px !important;
+      font-size: 1.1em;
+    }
+  }
+}
+.navbar-collapse {
+  &.align-center {
+    text-align: center;
+    margin: 0px 0 -5px 0;
+  }
+}
+nav.header-nav ul li > ul.dropdown-menu.sub-menu .caret {
+  border-bottom: 4px solid rgba(0, 0, 0, 0);
+  border-left: 4px solid rgba(0, 0, 0, 1);
+  border-top: 4px solid rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  width: 0;
+}
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #fff;
+  margin-top: 5px;
+  margin-right: -5px;
+}
+.dropdown-menu {
+  margin: 0;
+}
+.login {
+  .user {
+    background-color: #f57e20;
+    border: 3px solid;
+    border-radius: 50%;
+    color: $white;
+    font-size: 34px;
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:after {
+      display: none;
+    }
+    &:hover, &:active {
+      color: $white;
+      background-color: $charcoal;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.textcolororg {
+  color: #f57e20;
+  a:hover {
+    color: #e36110;
+  }
+}
+
+.underline {
+  border-bottom: 2px black solid;
+  text-align: center;
+}
+
+
+.btn-center {
+  width: 50%;
+  text-align: center;
+  margin: inherit;
+}
+
+
+.underline-black {
+  background-color: #333;
+  height: 2px;
+}
+
+
+.separator {
+  height: 30px;
+}
+
+
+a {
+  &:hover, &:focus {
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+  }
+
+  .fa {
+    &:hover, &:focus {
+      -webkit-transition-duration: .5s;
+      transition-duration: .5s;
+    }
+  }
+}
+
+@mixin btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-block {
+  @include btn-block();
+}
+
+
+
+.btn {
+  background-color: $charcoal;
+  @include border-radius(0px);
+  text-decoration: none;
+  @include btn-block;
+  color: $white;
+  margin-top: 15px;
+  font-size: 1em;
+  &:hover {
+    background: $orange;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    text-decoration: none;
+  }
+  @media (min-width: 0) and (max-width: $screen-xs-max) {
+    @include btn-block();
+  }
+
+  &:hover, &:active {
+    color: $white;
+  }
+  &.btn-danger{
+    background: #dc3545;
+  }
+  &.btn-success{
+    background: #28a745;
+  }
+}

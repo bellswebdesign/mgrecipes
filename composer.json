@@ -1,0 +1,23 @@
+{
+    "name": "NuWeb Marketing",
+    "description": "Grandmas Recipes Composer Stack",
+    "license": "GPL",
+    "secure-http": false,
+    "authors": [
+        {
+            "name": "Joshua Holdeman",
+            "email": "info@nuweb.marketing",
+            "homepage": "https://nuweb.marketing",
+            "role": "Owner/Developer"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "4.0.0",
+        "psy/psysh" : "~0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NuWeb\\": "src"
+        }
+    }
+}

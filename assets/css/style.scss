@@ -1,0 +1,14 @@
+@import "../../vendor/twbs/bootstrap/scss/bootstrap.scss";
+@import './mixins/_media-queries.scss';
+@import './mixins/_responsive-utilities.scss';
+@import './mixins/_sweetalert2.scss';
+@import 'sass/vars.scss';
+@import 'sass/common.scss';
+@import 'sass/typography.scss';
+@import 'sass/header.scss';
+@import 'sass/nav.scss';
+@import 'sass/dashboard.scss';
+@import 'sass/pages.scss';
+@import 'sass/search.scss';
+@import 'sass/register.scss';
+@import 'sass/footer.scss';

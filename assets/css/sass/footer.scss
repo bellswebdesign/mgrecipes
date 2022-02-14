@@ -1,0 +1,14 @@
+footer {
+  &.footer {
+    padding: 40px 0;
+    background-color: $orange;
+    position: relative;
+    color: $white;
+  }
+  .copyright {
+    p {
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Grandmas-Recipes",
+  "version": "1.0.0",
+  "description": "Grandmas Recipes Node Package Stack",
+  "author": "Joshua Holdeman",
+  "license": "ISC",
+  "homepage": "https://nuweb.marketing",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}
